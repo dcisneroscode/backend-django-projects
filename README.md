@@ -4,23 +4,23 @@ This Django project provides a basic configuration for starting a website with t
 
 Installation
 Clone this repository on your local machine:
-<pre><code>
+<code>
 git clone <url-repository
-</code></pre>
+</code>
 
 Install the project dependencies:
-<pre><code>pip install -r requirements.txt</code></pre>
-`pip install -r requirements.txt`
+<code>pip install -r requirements.txt</code>
+
 
 Configuration
 Make sure you have Django installed. If you don't have it, you can install it using pip:
-`pip install Django`
+<code>pip install Django</code>
 
 Apply migrations to create the initial database:
-`python manage.py migrate`.
+<code>python manage.py migrate</code>
 
 To run the development server, use the following command:
-`python manage.py runserver`
+<code>python manage.py runserver</code>
 
 Models
 This project contains two related models:
