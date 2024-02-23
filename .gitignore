@@ -1,0 +1,4 @@
+env
+BasicDjangoConfiguration/__pycache__
+source/__pycache__
+source/migrations/__pycache__
