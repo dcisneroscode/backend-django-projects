@@ -1,4 +1,4 @@
-#Django Project: Basic Configuration
+# Django Project: Basic Configuration
 
 This Django project provides a basic configuration for starting a website with two related templates and an administration interface.
 
