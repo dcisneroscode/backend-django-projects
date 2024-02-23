@@ -1,9 +1,10 @@
-Django Project: Basic Configuration
+#Django Project: Basic Configuration
+
 This Django project provides a basic configuration for starting a website with two related templates and an administration interface.
 
 Installation
 Clone this repository on your local machine:
-`git clone <url-repository`.
+``git clone <url-repository``.
 
 Install the project dependencies:
 `pip install -r requirements.txt`
