@@ -4,9 +4,12 @@ This Django project provides a basic configuration for starting a website with t
 
 Installation
 Clone this repository on your local machine:
-``git clone <url-repository``.
+<pre><code>
+git clone <url-repository
+</code></pre>
 
 Install the project dependencies:
+<pre><code>pip install -r requirements.txt</code></pre>
 `pip install -r requirements.txt`
 
 Configuration
