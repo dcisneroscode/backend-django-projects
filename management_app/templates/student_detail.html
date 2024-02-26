@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Estudiante</title>
+</head>
+<body>
+    <h1>Detalles del Estudiante</h1>
+    <p><strong>Nombre:</strong> {{ object.name }}</p>
+    <p><strong>Edad:</strong> {{ object.year }}</p>
+    <p><strong>Correo:</strong> {{ object.email }}</p>
+    <p><a href="{% url 'student-update' object.pk %}">Editar</a></p>
+    <form action="{% url 'student-delete' object.pk %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Eliminar">
+    </form>
+    <a href="{% url 'student-list' %}">Volver a la lista de estudiantes</a>
+</body>
+</html>

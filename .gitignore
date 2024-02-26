@@ -1,0 +1,4 @@
+env
+conf/__pycache__
+management_app/__pycache__
+management_app/migrations/__pycache__
