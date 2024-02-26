@@ -3,16 +3,16 @@ This Django project is a basic student management application that allows you to
 
 Installation
 ### Clone this repository to your local machine using Git:
-~~~ git clone https://github.com/your_username/your_repository.git ~~~
+``` git clone https://github.com/your_username/your_repository.git ```
 
 ### Install the project dependencies using pip:
-~~~ pip install -r requirements.txt ~~~
+``` pip install -r requirements.txt ```
 
 ### Perform migrations to create database tables:
-~~~ python manage.py migrate ~~~
+``` python manage.py migrate ```
 
 ### Start the development server:
-~~~ python manage.py runserver ~~~
+``` python manage.py runserver ```
 Open your web browser and visit http://127.0.0.1:8000/ to see the application in action.
 
 Features
